@@ -1,0 +1,84 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .event-booking-container {
+    padding: 30px;
+    max-width: 1500px;
+    margin: 0 auto;
+    margin-top: 5%;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .page-title {
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+  }
+  
+  .bookings-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .bookings-table th,
+  .bookings-table td {
+    border: 1px solid #ddd;
+    padding: 14px 20px;
+    text-align: left;
+    color: #555;
+    font-size: 16px;
+  }
+  
+  .bookings-table th {
+    background-color: #005f73;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  .bookings-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .bookings-table tr:hover {
+    background-color: #e1f5fe;
+    cursor: pointer;
+  }
+  
+  .bookings-table td {
+    transition: background-color 0.3s ease;
+  }
+  
+  .bookings-table td:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .bookings-table td[colspan='6'] {
+    text-align: center;
+    font-size: 18px;
+    color: #777;
+    font-style: italic;
+  }
+  
+  @media (max-width: 768px) {
+    .bookings-table {
+      font-size: 14px;
+    }
+  
+    .bookings-table th,
+    .bookings-table td {
+      padding: 10px;
+    }
+  }
+  
